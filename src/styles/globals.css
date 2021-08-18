@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .link{
+
+        @apply cursor-pointer hover:underline;
+    }
+    .buttom{
+        @apply p-2 text-lg md:text-xl bg-yellow-400 font-semibold shadow-xl hover:bg-yellow-500 text-gray-900
+    }
+}
