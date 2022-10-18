@@ -23,10 +23,10 @@ function Products({ product }) {
 
   }
   return (
-    <div className=" relative shadow-2xl rounded-xl flex flex-col m-5 bg-white z-30 p-10">
+    <div className=" relative shadow-2xl rounded-xl flex flex-col m-3 md:m-5 bg-white z-30 p-5 md:p-10">
       <p className="absolute top-2 right-2 text-xs italic text-gray-400">{product.category}</p>
-      <Image src={product.image} height="200" width="200" objectFit="contain" />
-      <h4 className="my-3">{product.title}</h4>
+         <Image src={product.image} height="200" width="200" objectFit="contain" />
+      <h4 className="md:my-3">{product.title}</h4>
       <div className="flex">
         {Array(rating)
           .fill()

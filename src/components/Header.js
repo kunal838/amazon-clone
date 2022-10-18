@@ -21,7 +21,7 @@ function Header() {
         className="flex item-center bg-amazon_blue
       p-1 flex-grow py-2  "
       >
-        <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
+        <div className="w-[30%] mt-2 flex items-center flex-grow sm:flex-grow-0">
           <Image
           onClick={()=>{router.push('/')}}
             src="https://links.papareact.com/f90"
